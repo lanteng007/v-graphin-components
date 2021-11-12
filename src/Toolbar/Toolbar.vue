@@ -71,7 +71,7 @@ export default {
   },
   methods: {
     handleToolbarItemClick(option) {
-      this.$emit("change", this.graphin(), option);
+      this.$emit("change", this.graphin, option);
     },
   },
 };

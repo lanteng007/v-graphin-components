@@ -148,7 +148,7 @@ export default {
           bindType: this.bindType,
         },
       };
-      this.setGraphinProperty({ contextmenu });
+      this.setGraphinProperty('contextmenu', contextmenu);
     },
     handleMenuItemClick(option, callBack) {
       this.$emit("change", this.item, this.item && this.item.getModel())

@@ -270,7 +270,7 @@ export default {
           y: this.y,
         },
       };
-      this.setGraphinProperty({ tooltip });
+      this.setGraphinProperty('tooltip', tooltip);
     },
   },
   created() {
