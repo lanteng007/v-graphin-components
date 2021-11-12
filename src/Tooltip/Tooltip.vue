@@ -52,8 +52,8 @@ export default {
       let nodeSize = 40;
       if (this.item) {
         const modelStyle = this.item.getModel().style;
-        if (modelStyle) {
-          nodeSize = modelStyle.keyshape.size;
+        if (modelStyle && modelStyle.keyshape) {
+          nodeSize = modelStyle.keyshape.size || nodeSize;
         }
       }
       const padding = 12;
