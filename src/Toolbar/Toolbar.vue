@@ -90,6 +90,9 @@ ul.graphin-components-toolbar-content {
     &:hover {
       background: #ddd;
     }
+    > span, > i {
+      vertical-align: text-top;
+    }
   }
 }
 </style>

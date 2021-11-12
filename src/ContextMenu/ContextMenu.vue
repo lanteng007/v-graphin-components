@@ -186,6 +186,9 @@ export default {
       &:hover {
         background: #ddd;
       }
+      > span, > i {
+        vertical-align: text-top;
+      }
     }
   }
 }
