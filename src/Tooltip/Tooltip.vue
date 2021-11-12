@@ -46,7 +46,7 @@ export default {
   },
   computed: {
     graph() {
-      return this.graphin().graph || {};
+      return this.graphin.graph || {};
     },
     positionStyle() {
       let nodeSize = 40;
