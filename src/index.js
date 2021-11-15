@@ -6,7 +6,7 @@ export { default as ContextMenu } from './ContextMenu/index';
 // export { default as Grid } from './Grid';
 // export { default as Hull, HullCfg } from './Hull';
 // export { default as LayoutSelector } from './LayoutSelector';
-// export { default as Legend } from './Legend';
+export { default as Legend } from './Legend/index';
 // export { default as MiniMap } from './MiniMap';
 export { default as Toolbar } from './Toolbar/index';
 export { default as Tooltip } from './Tooltip/index';
