@@ -151,9 +151,8 @@ export default {
       this.setGraphinProperty('contextmenu', contextmenu);
     },
     handleMenuItemClick(option, callBack) {
-      const modelData = this.item && this.item.getModel()
-      this.$emit("change", option, modelData)
-      callBack && callBack(option, modelData)
+      this.$emit("change", option, this.item)
+      callBack && callBack(option, this.item)
       this.handleClose();
     },
   },
