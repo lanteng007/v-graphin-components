@@ -22,7 +22,7 @@
         </li>
       </ul>
     </template>
-    <slot v-else :graphin="graphin()"></slot>
+    <slot v-else :graphin="graphin"></slot>
   </div>
 </template>
 <script>
