@@ -1,9 +1,9 @@
 {
   "name": "v-graphin-components",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": false,
   "description": "v-graphin-components",
-  "main": "lib/index.umd.min.js",
+  "main": "lib/vGraphinComponents.umd.min.js",
   "author": "lanteng",
   "license": "MIT",
   "keywords": [
