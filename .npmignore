@@ -51,3 +51,5 @@ jest.config.js
 __mock__
 public
 tsconfig.json
+babel.config.js
+vue.config.js
